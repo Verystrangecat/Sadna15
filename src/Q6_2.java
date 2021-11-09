@@ -9,7 +9,7 @@ public class Q6_2 {
         int y= input.nextInt();
         if ((m>=9 && m<=12 && y==2021 && d<=30 && d>=1) )
             System.out.println("The date is valid in the current school year.");
-        else if(m>=1 && m<=5 && y==2022 && d<=30 && d>=1)
+            else if(m>=1 && m<=5 && y==2022 && d<=30 && d>=1)
             System.out.println("The date is valid in the current school year.");
         else if (m==6 && y==2022 && d<=20 && d>=0)
             System.out.println("The date is valid in the current school year.");
